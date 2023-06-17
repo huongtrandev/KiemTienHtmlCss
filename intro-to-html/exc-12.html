@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .flex-12a {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .flex-12b {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .flex-12c {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .flex-12d {
+        margin-top: 10px;
+        border: 1px solid grey;
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .row {
+        display: flex;
+        flex-direction: row;
+      }
+      .flex-12e {
+        display: flex;
+        flex-direction: column;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex-12a">
+      <div style="background-color: lightblue; width: 200px">200px</div>
+      <div style="background-color: lightpink; width: 75px">75px</div>
+    </div>
+    <div class="flex-12b">
+      <div style="background-color: lightblue; width: 50px">item1</div>
+      <div style="background-color: lightpink; flex: 2">item2</div>
+      <div style="background-color: lightblue; width: 75px">item3</div>
+    </div>
+    <div class="flex-12c">
+      <div style="background-color: lightpink">item1</div>
+      <div style="background-color: lightpink">item2</div>
+      <div style="background-color: lightpink">item3</div>
+      <div style="background-color: lightpink">item4</div>
+    </div>
+    <div class="flex-12d">
+      <div style="background-color: lightpink">item1</div>
+      <div style="background-color: lightpink">item2</div>
+    </div>
+    <div class="flex-12e">
+      <div class="row">
+        <div>Home</div>
+        <div class="notification">14</div>
+      </div>
+      <div class="row">
+        <div>Notifications</div>
+        <div class="notification">3</div>
+      </div>
+      <div class="row">
+        <div>Messages</div>
+        <div class="notification">5</div>
+      </div>
+    </div>
+  </body>
+</html>

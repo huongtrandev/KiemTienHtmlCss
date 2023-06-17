@@ -2,18 +2,22 @@
 <html>
   <head>
     <style>
+      .layout {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 10px;
+        align-items: center;
+      }
       .tag {
-        width: 200px;
         height: 335px;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 14px;
         border: none;
         box-shadow: 0 0 15px rgba(200, 200, 200, 0.8);
-        margin: 5px;
       }
       .img-cat {
-        width: 200px;
-        height: 220px;
+        width: 100%;
+        height: 180px;
       }
       .cat-name {
         font-size: 20px;
@@ -37,11 +41,25 @@
     </style>
   </head>
   <body>
-    <div class="tag">
-      <img class="img-cat" src="styles/1521-WIRED-Cat.webp" alt="" />
-      <p class="cat-name">Oiliver</p>
-      <p class="cat-des">2 mutual friends</p>
-      <button class="btn">Add Friend</button>
+    <div class="layout">
+      <div class="tag">
+        <img class="img-cat" src="styles/1521-WIRED-Cat.webp" alt="" />
+        <p class="cat-name">Oiliver</p>
+        <p class="cat-des">2 mutual friends</p>
+        <button class="btn">Add Friend</button>
+      </div>
+      <div class="tag">
+        <img class="img-cat" src="styles/1521-WIRED-Cat.webp" alt="" />
+        <p class="cat-name">Oiliver</p>
+        <p class="cat-des">2 mutual friends</p>
+        <button class="btn">Add Friend</button>
+      </div>
+      <div class="tag">
+        <img class="img-cat" src="styles/1521-WIRED-Cat.webp" alt="" />
+        <p class="cat-name">Oiliver</p>
+        <p class="cat-des">2 mutual friends</p>
+        <button class="btn">Add Friend</button>
+      </div>
     </div>
   </body>
 </html>
