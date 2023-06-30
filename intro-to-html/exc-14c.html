@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .all {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: black;
+      }
+
+      .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 65px;
+        background-color: rgb(213, 245, 247);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 100px;
+
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+      }
+
+      .info-name {
+        display: flex;
+        flex-direction: row;
+      }
+      .info-pic {
+        height: 50px;
+        width: 50px;
+        border-radius: 25px;
+        margin-right: 10px;
+      }
+
+      .btn-1 {
+        padding: 10px 15px;
+        background-color: rgb(30, 140, 230);
+        color: white;
+        font-weight: 600;
+        border: none;
+        border-radius: 5px;
+      }
+
+      .btn-2 {
+        padding: 10px 15px;
+        background-color: lightgray;
+        font-weight: 600;
+        border: none;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="all"></div>
+    <div class="header">
+      <div class="info-name">
+        <img class="info-pic" src="cat1.jpg" />
+        <p>ABC_Cattie</p>
+      </div>
+      <div class="rightside">
+        <button class="btn-1">Add Friend</button>
+        <button class="btn-2">Message</button>
+      </div>
+    </div>
+  </body>
+</html>

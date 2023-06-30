@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .container {
+        display: flex;
+        flex-direction: row;
+        height: 55px;
+      }
+      .left {
+        background-color: lightpink;
+        width: 150px;
+      }
+
+      .right {
+        flex: 1;
+        background-color: lightblue;
+      }
+      .center {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .row {
+        background-color: black;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left"></div>
+      <div class="right">
+        <div class="row-1">row1</div>
+        <div class="center">
+          <div class="row">row2</div>
+          <div class="row">row2</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

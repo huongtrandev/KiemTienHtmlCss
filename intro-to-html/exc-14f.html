@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .left-sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 300px;
+        display: flex;
+        flex-direction: row;
+        font-family:Arial, Helvetica, sans-serif;
+      }
+
+      .acc {
+        background-color: rgb(44, 41, 41);
+        padding: 10px 6px;
+      }
+      .info-pic {
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        margin-bottom: 8px;
+      }
+
+      .info {
+        width: 150px;
+        background-color: rgb(71, 65, 65);
+        color: white;
+        padding: 10px 6px;
+      }
+
+      .top-info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .hash-tag {
+        color: lightgrey;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="left-sidebar">
+      <div class="acc">
+        <div>
+          <img class="info-pic" src="cat.webp" alt="" />
+        </div>
+        <div>
+          <img class="info-pic" src="cat.webp" alt="" />
+        </div>
+        <div>
+          <img class="info-pic" src="cat.webp" alt="" />
+        </div>
+      </div>
+      <div class="info">
+        <div class="top-info">
+          <p style="font-weight: bold;margin: 0;">INFO</p>
+          <p style="font-size: 26px;
+          color: lightgrey; margin: 0;">&#43</p>
+        </div>
+        <p class="hash-tag">&#x23; New video</p>
+        <p class="hash-tag">&#x23; Updates</p>
+        <p class="hash-tag">&#x23; FAQ</p>
+      </div>
+    </div>
+  </body>
+</html>
